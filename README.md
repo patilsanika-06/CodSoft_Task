@@ -50,7 +50,7 @@ class TicTacToe:
                         best_move = (i, j)
         return best_move
 
-    def evaluate_board(self):
+      def evaluate_board(self):
         # Check rows, columns, and diagonals for a win
         for row in range(3):
             if self.board[row][0] == self.board[row][1] == self.board[row][2] != ' ':
